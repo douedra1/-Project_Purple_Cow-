@@ -2,7 +2,7 @@
 Fearless Site Reliability Engineer
 
 
-Fearless Site Reliability Engineer
+
 
 I spent a lot of time trying to understand the requirements of my task. Once I understood what I was asked to do, I started brainstorming the potential solution.
 
