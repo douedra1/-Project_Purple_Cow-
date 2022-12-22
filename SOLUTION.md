@@ -10,7 +10,7 @@ I established the connection using the hostname and the port number. Once the co
 I then created a function to test my SSL verification function on the same python file.
 
 
-**List any future updates, changes, or outstanding code you would like to add or would recommend be added
+**List any future updates, changes, or outstanding code you would like to add or would recommend be added**
 
 1. It is not a good practice to let the certificate expires before the infrastructure trigger an alert. I will add another block of code to check if the certificate will expire in the next 15 days. If it is the case, the lambda function will be updated to notify the team so action can be taken as soon as possible.
 
