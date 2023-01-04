@@ -1,12 +1,9 @@
 # -Project_Purple_Cow-
-Fearless Site Reliability Engineer
+ Site Reliability Engineer
 
 
 
-
-I spent a lot of time trying to understand the requirements of my task. Once I understood what I was asked to do, I started brainstorming the potential solution.
-
-Since I am checking the validation date of SSL certificates, I imported the Python library datetime. The response should be in JSON, so I also imported JSON as well as the SSL for the certificate and socket for the network communication. One of the requirements is to send a notification if the certification is not valid. To send the notification I imported boto3 which is the AWS library for sending notifications.
+I am checking the validation date of SSL certificates, so I imported the Python library datetime. The response should be in JSON, so I also imported JSON as well as the SSL for the certificate and socket for the network communication. One of the requirements is to send a notification if the certification is not valid. To send the notification I imported boto3 which is the AWS library for sending notifications.
 
 I established the connection using the hostname and the port number. Once the connection was established, I extracted the expiration date, and I compared it to the current time. If the expiration date is less than the current time, then a notification is sent, and I return the result in JSON format. I then created a function to test my SSL verification function on the same python file.
 
